@@ -74,7 +74,7 @@ const data: HeaderData = {
   cta: {
     id: "0",
     href: "#!",
-    text: "Sign Up",
+    text: "Customer Dashboard",
   },
 }
 
