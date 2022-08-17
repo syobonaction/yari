@@ -1,4 +1,5 @@
 import { graphql } from "gatsby"
+import World from "./world"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
 import {
@@ -36,6 +37,7 @@ export default function Hero(props: HeroProps) {
                 image={getImage(props.image.gatsbyImageData)}
               />
             )}
+            <World />
           </Box>
           <Box width="half">
             <Heading as="h1">
